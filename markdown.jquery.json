@@ -1,0 +1,23 @@
+{
+    "name": "markdown",
+    "version": "1.0.0",
+    "title": "Markdown",
+    "author": {
+        "name": "Can Geliş",
+        "email": "geliscan@gmail.com",
+        "url": "http://www.cangelis.com"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/cangelis/jquery-markdown/blob/master/license.txt"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">=1.2.0"
+    },
+    "description": "jQuery Markdown provides necessary wrapper functions for a markdown editor so anybody can create his/her own markdown editor using this plugin.",
+    "keywords": ["markdown", "markup"],
+    "docs": "https://github.com/cangelis/jquery-markdown/blob/master/README.md",
+    "demo": "http://www.cangelis.com/jquery-markdown/demo/"
+}
