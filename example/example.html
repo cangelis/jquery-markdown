@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jquery-markdown example</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="../jquery-markdown.js"></script>
+    </head>
+    <body>
+        <div>
+            <div>
+                <button onClick="$('#test').mdBold()">Bold</button>
+                <button onClick="$('#test').mdItalic()">Italic</button>
+                <button onClick="$('#test').mdHeader({number: 1})">H1</button>
+                <button onClick="$('#test').mdHeader({number: 2})">H2</button>
+                <button onClick="$('#test').mdHeader({number: 3})">H3</button>
+                <button onClick="$('#test').mdHeader({number: 4})">H4</button>
+                <button onClick="$('#test').mdLink({default_url: prompt('Enter URL please')})">Link</button>
+                <button onClick="$('#test').mdImage({default_image_url: prompt('Enter URL Please')})">Image</button>
+                <button onClick="$('#test').mdQuote()">Quote</button>
+                <button onClick="$('#test').mdNumberedList()">Numbered List</button>
+                <button onClick="$('#test').mdBulletList()">Bullet List</button>
+            </div>
+            <textarea rows="8" cols="90" id="test"></textarea>
+        </div>
+    </body>
+</html>
