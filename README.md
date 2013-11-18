@@ -2,7 +2,7 @@
 
 ## About
 
-jQuery Markdown provides necessary functions for a markdown editor so anybody can create his/her own markdown editor using this plugin.
+jQuery Markdown provides necessary wrapper functions for a markdown editor so anybody can create his/her own markdown editor using this plugin.
 
 ## Example
 
